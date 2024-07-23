@@ -1,9 +1,12 @@
-# Clone Coding Zoom
+# Clone Coding ZOOM
 
 #### Requirements
-- ExpressJS
-- app.get()
-- Pug
-- (req, res)
+- Node JS 
+    - an open source and cross-platform runtime env for executing JS outside of a browser
+
+- npm - Node Package Manager --> to install modules
+    - Express
+        * HTTP method
+
 - VanilaJS
-    - creating / removing
+    - creating / removing from HTML
