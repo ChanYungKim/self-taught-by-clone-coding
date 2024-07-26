@@ -17,19 +17,19 @@
    3. execute command touch babel.config.json to create babel.config.json file
    4. open babel.config.json, babel.config.json should be 
     
-    ```
-    {
-        "presets": ["@babel/preset-env"]
-    }
-    ```
+        ```
+        {
+            "presets": ["@babel/preset-env"]
+        }
+        ```
    5. execute command touch nodemon.json to create nodemon.json file
    6. open nodemon.json, nodemon.json should be 
-   
-    ```
-    {
-        "exec": "babel-node src/server.js"
-    }
-    ```
+    
+        ```
+        {
+            "exec": "babel-node src/server.js"
+        }
+        ```
    7. execute command mkdir src to create a src folder
    8. execute command cd src to change directory to src
    9. execute command touch server.js to create server.js file
