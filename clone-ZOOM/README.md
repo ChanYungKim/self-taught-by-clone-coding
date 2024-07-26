@@ -11,7 +11,7 @@
     - creating / removing from HTML
 
 #### Steps
-#### 1. Server Setup
+##### 1. Server Setup
    1. execute command npm init -y in the terminal :- package.json should be created
    2. execute command npm install nodemon -D in the terminal to download the package
    3. execute command touch babel.config.json to create babel.config.json file
@@ -21,9 +21,9 @@
    7. execute command mkdir src to create a src folder
    8. execute command cd src to change directory to src
    9. execute command touch server.js to create server.js file
-  10. open server.js, server.js should be
-       import express from "express";
-       const app = express();
+  10. open server.js, server.js should be\n
+       import express from "express";\n
+       const app = express();\n
        app.listen(3000);
   11. execute command npm install @babel/core @babel/cli @babel/node -D @babel/preset-env -D
   12. execute command npm install express
