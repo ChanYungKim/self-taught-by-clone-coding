@@ -11,26 +11,26 @@
     - creating / removing from HTML
 
 #### Steps
-#### Server Setup
-1. execute command npm init -y in the terminal :- package.json should be created
-2. execute command npm install nodemon -D in the terminal to download the package
-3. execute command touch babel.config.json to create babel.config.json file
-4. open babel.config.json, babel.config.json should be {"presets": ["@babel/preset-env"]}
-5. execute command touch nodemon.json to create nodemon.json file
-6. open nodemon.json, nodemon.json should be {"exec": "babel-node src/server.js"}
-7. execute command mkdir src to create a src folder
-8. execute command cd src to change directory to src
-9. execute command touch server.js to create server.js file
-10. open server.js, server.js should be
-    import express from "express";
-    const app = express();
-    app.listen(3000);
-11. execute command npm install @babel/core @babel/cli @babel/node -D @babel/preset-env -D
-12. execute command npm install express
-13. execute command npm install pug
-14. execute command npm run dev to confirm if the setup is all correct
+#### 1. Server Setup
+   1. execute command npm init -y in the terminal :- package.json should be created
+   2. execute command npm install nodemon -D in the terminal to download the package
+   3. execute command touch babel.config.json to create babel.config.json file
+   4. open babel.config.json, babel.config.json should be {"presets": ["@babel/preset-env"]}
+   5. execute command touch nodemon.json to create nodemon.json file
+   6. open nodemon.json, nodemon.json should be {"exec": "babel-node src/server.js"}
+   7. execute command mkdir src to create a src folder
+   8. execute command cd src to change directory to src
+   9. execute command touch server.js to create server.js file
+  10. open server.js, server.js should be
+       import express from "express";
+       const app = express();
+       app.listen(3000);
+  11. execute command npm install @babel/core @babel/cli @babel/node -D @babel/preset-env -D
+  12. execute command npm install express
+  13. execute command npm install pug
+  14. execute command npm run dev to confirm if the setup is all correct
 
-- optional : execute command touch README.md to add README
+  - optional : execute command touch README.md to add README
 
 #### Appendix
 - HTTP method
