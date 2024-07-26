@@ -22,9 +22,11 @@
    8. execute command cd src to change directory to src
    9. execute command touch server.js to create server.js file
   10. open server.js, server.js should be
-       ```import express from "express";
+       ```
+       import express from "express";
        const app = express();
-       app.listen(3000);```
+       app.listen(3000);
+       ```
   11. execute command npm install @babel/core @babel/cli @babel/node -D @babel/preset-env -D
   12. execute command npm install express
   13. execute command npm install pug
